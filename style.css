@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Bitter', serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.text-wrapper {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.pads-wrapper {
+    width: 100%;
+    display: flex;
+
+}
+
+.pads-wrapper>div {
+    width: 100px;
+    height: 100px;
+    flex: 1;
+    transition: all 0.5s;
+}
+
+.pad1 {
+    background-color: #AB5F57;
+}
+
+.pad2 {
+    background-color: #39304a
+}
+
+.pad3 {
+    background-color: #6e8898
+}
+
+.pad4 {
+    background-color: #f9627d
+}
+
+.pad5 {
+    background-color: #6a041d
+}
+
+.choosen {
+    opacity: 0.5;
+    transition: all 0.5s;
+}
